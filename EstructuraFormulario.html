@@ -1,0 +1,94 @@
+<!DOCTYPE>
+<html>
+    <body>
+        <style>
+            #border{
+                border-color:white;
+                border style: center border solid;
+                border width: 1px;
+                border-color:white;
+                border style: right border solid;
+                border width: 50px;
+                border-color:white;
+                border style: left border solid;
+                border width: 50px;
+                }
+        </style>
+    </body>
+    <body>
+        <!--step1-->
+        <form method="post">
+            <div style=background-color:lightgreen>
+            <div style="border: 1px solid black">
+                    <center><h3 style=background-color:yellowgreen>Step 1:Your details</h3></center>
+                <label>
+                    <center>Name:
+                       <input type="Name" name="nombre" placeholder="First Name y Last Name">
+                    </center>
+                </label>
+                <br>
+             <div style="border: 1px solid black">
+                <label>
+                    <center>Email:
+                        <input type="email" name="correo" placeholder="example@domain.com">
+                    </center>
+                </label>
+                <br>
+            <div style="border: 1px solid black" rowspan="40px">
+                <label>
+                    <center>Phone:
+                       <input type="tel" name="cel" placeholder="Eg.123-456-7890">
+                    </center>
+                </label>
+                <br>
+                <br>
+        <!--Step2-->
+            <center><h3 style=background-color:yellowgreen>Step 2:Delivery <address></h3></center>
+            <div style="border: 1px solid black"></div>
+                <label>
+                    <center>Address:
+                       <input type="address" name="direccion" maxlength="10" minlength="5">
+                        </center>
+                </label>
+                <br>
+            <div style="border: 1px solid black">
+                <label>
+                    <center>Post Code:
+                        <input type="code" name="codigo" placeholder="123456" maxlength="6">
+                    </center>
+                </label>
+                <br>
+            <div style="border: 1px solid black" rowspan="40px">
+               <label>
+                    <center>Country:
+                       <input type="country" name="pais">
+                    </center>
+                </label>
+                <br>
+                <br>
+        <!--Step3-->
+            <center><h3 style=background-color:yellowgreen>Step 3:Card Details<address></h3></center>
+            <div style="border: 1px solid black">
+                <label>
+                    <center>Card Number
+                       <input type="card" name="tarjeta" placeholder="1234-5678-1234-5678" maxlength="16">
+                    </center>
+                </label>
+                <br>
+             <div style="border: 1px solid black">
+                <label>
+                    <center>Segurity Code:
+                        <input type="code" name="codigo" placeholder="123" maxlength="3">
+                    </center>
+                </label>
+                <br>
+            <div style="border: 1px solid black" rowspan="40px">
+               <label>
+                    <center>Name on card:
+                       <input type="name" name="nombre" placeholder="Exact Name on the Card">
+                    </center>
+                </label>
+            </div>
+        </form>
+    </body>
+</html>
